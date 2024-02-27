@@ -1,7 +1,7 @@
 <?php
 include("config.php");
 
-if (isset($_GET[""])) {
+if (isset($_GET["viewtasksbtn"])) {
 
     $query = "SELECT title, description, priority, due_date  FROM `tasks`";
 
@@ -11,9 +11,9 @@ if (isset($_GET[""])) {
 
         while ($row = $result->fetch_assoc()) {
             echo "Title: " . $row["title"] .
-                "Description: " . $row["description"] .
-                "Priority: " . $row["priority"] .
-                "Due Date: " . $row["due_date"] . "<br>";
+                " - Description: " . $row["description"] .
+                " - Priority: " . $row["priority"] .
+                " - Due Date: " . $row["due_date"] . "<br>";
         }
     } else {
         echo "0 results";
