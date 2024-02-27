@@ -7,15 +7,7 @@
 </head>
 <body class="bg-secondary">
     <div class="navbar navbar-expand-lg bg-warning border border-info">
-        <h3>Task Management System</h3>
-        <div class="container d-flex justify-content-end">
-            <div>
-                <button class="rounded-3" name="add_Task">Add Task</button>
-                <button class="rounded-3" name="edit_Task">Edit Task</button>
-            </div>
-            
-        </div>
-        
-    </div>
+        <h3>Task Management System</h3>       
+   </div>
 </body>
 </html>
