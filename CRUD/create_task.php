@@ -7,14 +7,14 @@ if (isset($_POST["addButton"])){
     $priority = $_POST["priority"];
     $duedate = $_POST["duedate"];
 
-    $sql = "INSERT INTO tasks (title, description, priority, due_date) VALUES ('$title', '$description', '$priority', '$duedate')";
+    $query = "INSERT INTO tasks (title, description, priority, due_date) VALUES ('$title', '$description', '$priority', '$duedate')";
 
-    if ($conn->query($sql) === TRUE) {
+    if ($conn->query($query) === TRUE) {
         echo "Added Task Successfully";
 
       } else {
         echo "Failed to add task";
-        // echo "Error: " . $sql . "<br>" . $conn->error;
+        // echo "Error: " . $query . "<br>" . $conn->error;
       }
       
     $conn->close();

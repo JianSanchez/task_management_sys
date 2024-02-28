@@ -4,7 +4,7 @@ include("config.php");
 if (isset($_GET["id"])) {
     $id = $_GET["id"];
     
-    $query = "DELETE FROM `tasks` WHERE `id` = '$id'";
+    $query = "DELETE FROM tasks WHERE id = '$id'";
 
 
     if ($conn -> query($query) === TRUE) {
@@ -15,8 +15,9 @@ if (isset($_GET["id"])) {
 
     $conn->close();
 }
-
-
-
-
 ?>
+
+<br>
+<a href="../index.php">
+  <button>Back to Home</button>
+</a>
