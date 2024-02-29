@@ -37,7 +37,9 @@ if (isset($_POST["editButton"])) {
             WHERE id = '$id'";
 
     if ($conn->query($query) === TRUE) {
-        echo "Edited Task Successfully";
+        echo "<script>alert('Edited Task Successfully');</script>";
+        echo "<script>window.location.href = '../index.php';</script>";
+        exit();
     } else {
         echo "Failed to edit task";
         // echo "Error: " . $query . "<br>" . $conn->error;
@@ -45,7 +47,6 @@ if (isset($_POST["editButton"])) {
 
     $conn->close();
 
-    echo "<br><a href='../index.php'><button>Back to Home</button></a>";
 }
 ?>
 

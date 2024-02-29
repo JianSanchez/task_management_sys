@@ -10,7 +10,7 @@
 
 <body>
     <div class="card-body d-flex flex-row align-items-center m-2 rounded"
-        style="height: 110px; background-color: #9fd3c7;">
+        style="height: 110px; background-color: #E7F5F5;">
         <div class="d-flex flex-column flex-fill mx-1">
             <div class="p-1">
                 <h5 class="m-0">

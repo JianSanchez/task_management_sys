@@ -19,13 +19,10 @@
     include("CRUD/view_tasks.php");
     ?>
 
-    <div class="card-body" style="height: 750px;">
-        <!-- <form action="CRUD/view_tasks.php" method="get">
-            <button type="submit" name="viewtasksbtn" class="rounded-3">View Tasks</button><br>
-        </form> -->
-
-        <a href="pages/add_task_page.php">
-            <button style="margin-left: 800px; background-color:#142d4c; border-radius: 10px; border: #385170; "><img src="logo/adding.png"></button>
+    <div class="text-center mt-4">
+        <a class="btn btn-warning btn-lg" href="pages/add_task_page.php" role="button">
+            <i class="fa-solid fa-plus"></i>
+            Add Task
         </a>
     </div>
 

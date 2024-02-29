@@ -8,7 +8,9 @@ if (isset($_GET["id"])) {
 
 
     if ($conn -> query($query) === TRUE) {
-        echo "Deleted Successfully";
+        echo "<script>alert('Deleted Successfully');</script>";
+        echo "<script>window.location.href = '../index.php';</script>";
+        exit();
     } else {
         echo "Not Deleted";
     }
@@ -16,8 +18,3 @@ if (isset($_GET["id"])) {
     $conn->close();
 }
 ?>
-
-<br>
-<a href="../index.php">
-  <button>Back to Home</button>
-</a>
