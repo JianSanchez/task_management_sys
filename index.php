@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/c127f8c694.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #142d4c;">
     <?php
     include("components/header.php");
     ?>
@@ -25,7 +25,7 @@
         </form> -->
 
         <a href="pages/add_task_page.php">
-            <button class="rounded-3">Add Tasks</button>
+            <button style="margin-left: 800px; background-color:#142d4c; border-radius: 10px; border: #385170; "><img src="logo/adding.png"></button>
         </a>
     </div>
 

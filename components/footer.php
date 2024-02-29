@@ -7,7 +7,7 @@
 
 </head>
 <body>
-    <div class="card-footer bg-warning border border-info">
+    <div class="card-footer" style="background-color: #385170; color: aliceblue;">
         <div class="text-center">
             <h5>These are the rights that authors are entitled to according to the law of copyright,
                 under Part IV of R.A. 8293, or the Intellectual Property Code of the Philippines.</h5>
