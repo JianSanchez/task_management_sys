@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div class="card-body d-flex flex-row align-items-center m-2 rounded"
+    <div class="card-body d-flex flex-row align-items-center justify-content-between m-2 rounded"
         style="height: 110px; background-color: #E7F5F5;">
-        <div class="d-flex flex-column flex-fill mx-1">
+        <div class="d-flex flex-column flex-fill mx-1" style="width: 30%;">
             <div class="p-1">
                 <h5 class="m-0">
                     <?php echo $title ?>
@@ -23,7 +23,7 @@
                 </p>
             </div>
         </div>
-        <div class="d-flex flex-column flex-fill mx-1">
+        <div class="d-flex flex-column flex-fill mx-1" style="width: 20%;">
             <div class="p-1">
                 <h5 class="m-0">
                     Priority:
@@ -35,7 +35,7 @@
                 </p>
             </div>
         </div>
-        <div class="d-flex flex-column flex-fill mx-1">
+        <div class="d-flex flex-column flex-fill mx-1" style="width: 20%;">
             <div class="p-1">
                 <h5 class="m-0">
                     Due Date:
@@ -47,7 +47,7 @@
                 </p>
             </div>
         </div>
-        <div class="d-flex flex-row flex-fill justify-content-end mx-1">
+        <div class="d-flex flex-row flex-fill justify-content-end mx-1" style="width: 20%;">
             <a href="/task_management_sys/CRUD/edit_task.php?id=<?php echo $id ?>">
                 <i class="fa-solid fa-pen fa-lg mx-2" style="color: #1f3251;"></i>
             </a>
